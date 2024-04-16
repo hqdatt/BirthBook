@@ -66,7 +66,7 @@ BirthBook is an app that lets you keep track of your friends' birthday and infor
 
 ## Wireframes
 
-![IMG_0529](https://github.com/hqdatt/BirthBook/assets/134716435/3bc64de7-a578-4016-9e97-9894cda79851)
+![IMG_0529](https://github.com/hqdatt/BirthBook/assets/134716435/c9477b6b-169d-4ac1-aba5-639bf466d616)
 
 
 ### [BONUS] Digital Wireframes & Mockups
