@@ -39,13 +39,13 @@ BirthBook is an app that lets you keep track of your friends' birthday and infor
 
 ### 2. Screen Archetypes
 
-- [ ] Home
+- [x] Home
 * Access a convenient list view displaying all your friends' upcoming birthdays.
 - [ ] Insight
 * Discover trends in birthdays within your social circle
-- [ ] DetailInfo
+- [] DetailInfo
 * Let users view and input contact information and birthday
-- [ ] Calendar
+- [x] Calendar
 * Utilize a dedicated calendar feature to seamlessly track and plan birthday celebrations.
 
 ### 3. Navigation
@@ -68,6 +68,12 @@ BirthBook is an app that lets you keep track of your friends' birthday and infor
 
 ![IMG_0529](https://github.com/hqdatt/BirthBook/assets/134716435/c9477b6b-169d-4ac1-aba5-639bf466d616)
 
+## App Demo
+https://youtu.be/_vkBA1QYJf4
+
+## Updated Challenges 
+
+Learning how to use and when to use closures are still challenging to me. Also, I will need to learn new libraries in UIKit to implement features that I expect to have. But I believe this will be completed.
 
 ### [BONUS] Digital Wireframes & Mockups
 
