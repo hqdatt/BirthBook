@@ -16,6 +16,9 @@
 		1E1D81082BCF278500873B01 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D81072BCF278500873B01 /* homeViewController.swift */; };
 		1E1D810A2BCF27EA00873B01 /* insightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D81092BCF27EA00873B01 /* insightViewController.swift */; };
 		1E1D810C2BCF281E00873B01 /* calendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D810B2BCF281E00873B01 /* calendarViewController.swift */; };
+		1E1D81102BCF6D2300873B01 /* contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D810F2BCF6D2300873B01 /* contact.swift */; };
+		1E1D81122BD09DDE00873B01 /* contactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D81112BD09DDE00873B01 /* contactCell.swift */; };
+		1E1D81142BD0A48000873B01 /* contactComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1D81132BD0A48000873B01 /* contactComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		1E1D81072BCF278500873B01 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		1E1D81092BCF27EA00873B01 /* insightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insightViewController.swift; sourceTree = "<group>"; };
 		1E1D810B2BCF281E00873B01 /* calendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendarViewController.swift; sourceTree = "<group>"; };
+		1E1D810F2BCF6D2300873B01 /* contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact.swift; sourceTree = "<group>"; };
+		1E1D81112BD09DDE00873B01 /* contactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactCell.swift; sourceTree = "<group>"; };
+		1E1D81132BD0A48000873B01 /* contactComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +71,13 @@
 				1E1D80F32BCF1FF100873B01 /* AppDelegate.swift */,
 				1E1D80F52BCF1FF100873B01 /* SceneDelegate.swift */,
 				1E1D80F72BCF1FF100873B01 /* ViewController.swift */,
-				1E1D80F92BCF1FF100873B01 /* Main.storyboard */,
 				1E1D81072BCF278500873B01 /* homeViewController.swift */,
+				1E1D81132BD0A48000873B01 /* contactComposeViewController.swift */,
 				1E1D81092BCF27EA00873B01 /* insightViewController.swift */,
 				1E1D810B2BCF281E00873B01 /* calendarViewController.swift */,
+				1E1D810F2BCF6D2300873B01 /* contact.swift */,
+				1E1D81112BD09DDE00873B01 /* contactCell.swift */,
+				1E1D80F92BCF1FF100873B01 /* Main.storyboard */,
 				1E1D80FC2BCF1FF300873B01 /* Assets.xcassets */,
 				1E1D80FE2BCF1FF300873B01 /* LaunchScreen.storyboard */,
 				1E1D81012BCF1FF300873B01 /* Info.plist */,
@@ -147,11 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E1D81122BD09DDE00873B01 /* contactCell.swift in Sources */,
+				1E1D81142BD0A48000873B01 /* contactComposeViewController.swift in Sources */,
 				1E1D80F82BCF1FF100873B01 /* ViewController.swift in Sources */,
 				1E1D80F42BCF1FF100873B01 /* AppDelegate.swift in Sources */,
 				1E1D810A2BCF27EA00873B01 /* insightViewController.swift in Sources */,
 				1E1D80F62BCF1FF100873B01 /* SceneDelegate.swift in Sources */,
 				1E1D810C2BCF281E00873B01 /* calendarViewController.swift in Sources */,
+				1E1D81102BCF6D2300873B01 /* contact.swift in Sources */,
 				1E1D81082BCF278500873B01 /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
