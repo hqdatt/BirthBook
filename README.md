@@ -73,7 +73,7 @@ https://youtu.be/_vkBA1QYJf4
 
 ## Updated Challenges 
 
-Learning how to use and when to use closures are still challenging to me. Also, I will need to learn new libraries in UIKit to implement features that I expect to have. But I believe this will be completed.
+Learning how to use and when to use closures are still challenging to me. Also, I will need to learn new libraries in UIKit to implement features that I expect to have. But I believe this will be completed
 
 ### [BONUS] Digital Wireframes & Mockups
 
