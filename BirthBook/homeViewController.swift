@@ -23,6 +23,19 @@ class homeViewController: UIViewController {
     @IBAction func didTapNewContactBtn(_ sender: Any) {
         performSegue(withIdentifier: "composeSegue", sender: nil)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 1.
+        if segue.identifier == "ComposeSegue" {
+            if let composeNavController = segue.destination as? UINavigationController,
+               let composeViewController = composeNavController.topViewController as? contactComposeViewController {
+                composeViewController.contactToEdit = sender as? Contact
+                composeViewController.onComposeContact = { [weak self] contact in
+                    contact.save()
+                }
+            }
+        }
+    }
 }
 
 extension homeViewController: UITableViewDataSource, UITableViewDelegate {

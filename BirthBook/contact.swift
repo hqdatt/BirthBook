@@ -12,16 +12,18 @@ struct Contact: Codable, Equatable {
     var firstName: String
     var lastName: String?
     var email: String?
-    var phoneNumber: Int?
+    var phoneNumber: String?
     var birthday: Date
     
-    init(firstName: String, lastName: String? = nil, email: String? = nil, phoneNumber: Int? = nil, birthday: Date) {
+    init(firstName: String, lastName: String? = nil, email: String? = nil, phoneNumber: String? = nil, birthday: Date) {
         self.firstName = firstName
         self.lastName = lastName
         self.email = email
         self.phoneNumber = phoneNumber
         self.birthday = birthday
     }
+    
+    var id: String = UUID().uuidString
 }
 
 extension Contact {
@@ -43,5 +45,14 @@ extension Contact {
     func save() {
         var currentContacts = Contact.getContacts()
         
+        if let matchingTaskIndex = currentContacts.firstIndex(where: {$0.id == self.id}) {
+            currentContacts.remove(at: matchingTaskIndex)
+            currentContacts.insert(self, at: matchingTaskIndex)
+                    
+        } else {
+            currentContacts.append(self)
+        }
+        
+        Contact.saveContacts(currentContacts)
     }
 }

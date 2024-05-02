@@ -153,7 +153,11 @@
                                 <action selector="didTapCancelButton:" destination="YwN-Fd-YFh" id="bxp-Se-Fev"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="XXL-9m-IAY"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="XXL-9m-IAY">
+                            <connections>
+                                <action selector="didTapDoneButton:" destination="YwN-Fd-YFh" id="yQ4-RE-wsY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="birthdayPicker" destination="t1C-M3-ZET" id="N9U-Jf-L0M"/>
